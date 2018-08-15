@@ -1,0 +1,96 @@
+.my-page-banner {
+    height: 3rem;
+    background: #ccc;
+}
+
+.my-page-banner .swiper-wrapper img {
+    width: 100%;
+}
+
+.my-page-banner .pageination {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 99;
+    position: relative;
+}
+
+.mod-twocol-list {
+    margin-top: .2rem;
+}
+
+.my-page h2 {
+    text-indent: 2.5%;
+    height: .5rem;
+    font-size: .3rem;
+    font-weight: normal;
+    line-height: .5rem;
+}
+
+.mod-twocol-list .list-container {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2.5%;
+}
+
+.mod-twocol-list .list-container div {
+    margin-left: 5%;
+    height: 4.5rem;
+    background: #fff;
+    position: relative;
+}
+
+.mod-twocol-list .list-container div:before {
+    content: '▶';
+    height: .5rem;
+    position: absolute;
+    width: .5rem;
+    z-index: 111;
+    border: 2px solid rgba(255, 255, 255, 0.822);
+    border-radius: 100%;
+    font-size: .26rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.808);
+    text-align: center;
+    line-height: .46rem;
+    right: .1rem;
+    bottom: 1rem;
+}
+
+.mod-twocol-list .list-container img {
+    width: 100%;
+    font-size: 0;
+    height: 3.6rem;
+}
+
+.mod-twocol-list .list-container div p {
+    width: 90%;
+    margin-left: 5%;
+    font-size: .28rem;
+    height: .6rem;
+    margin-top: -.1rem;
+}
+
+.user-message {
+    margin-top: .4rem;
+    height: 2.5rem;
+}
+
+.user-message .user-status {
+    height: 1.3rem;
+    display: flex;
+    font-size: .33rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-message .user-status img {
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-message .user-status span {
+    margin-left: .12rem;
+}

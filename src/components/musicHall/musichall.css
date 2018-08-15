@@ -1,0 +1,89 @@
+.mod_topic {
+    position: absolute;
+    top: 1.9rem;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mod_topic li {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.mod_topic li .topic_main {
+    display: -webkit-box;
+    background: #fff;
+}
+
+.mod_topic li .topic_media {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.mod_topic li .topic_media img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.mod_topic li .topic_media .listen_count {
+    left: 5px;
+    bottom: 7px;
+    line-height: 12px;
+    color: #fff;
+    opacity: .6;
+    font-size: 9px;
+    z-index: 10;
+}
+
+.mod_topic li .topic_info {
+    position: relative;
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+
+.mod_topic li .topic_cont {
+    -webkit-box-flex: 1;
+    margin: 0 10px 0 15px;
+}
+
+.mod_topic li .topic_tit {
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.mod_topic li .topic_cont p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.mod_topic li .topic_cont .text_name {
+    color: #000;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.mod_topic li .topic_tit,
+.mod_topic li .topic_cont p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.song_list_scoll {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}

@@ -1,0 +1,48 @@
+.headers {
+    width: 100%;
+    height: 1.9rem;
+    font-size: .36rem;
+    background: #31c27c;
+    color: #fff;
+}
+
+.headers .header-title {
+    height: .8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+.headers .header-title i {
+    width: .64rem;
+    text-align: center;
+}
+
+.headers .header-title>p {
+    display: flex;
+    justify-content: space-between;
+    width: 3.5rem;
+}
+
+.headers .header-title>p>a {
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.headers .header-title>p>a.active {
+    color: #fff;
+}
+
+.headers .header-search {
+    height: 1rem;
+}
+
+.headers .header-search input {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: .22rem;
+    background: #2caf70;
+    border: none;
+    height: .56rem;
+}

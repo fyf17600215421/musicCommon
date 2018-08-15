@@ -1,0 +1,10 @@
+{
+    "name": "QQ music",
+    "short_name": "PWA",
+    "description": "An example PWA website",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#ACE",
+    "theme_color": "#ACE"
+}
